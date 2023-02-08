@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+    margin-bottom: 15px;
+    width: 80%;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 0px 10px 0px;
+}
+
+a {
+    font-weight: 700;
+}
+    
+.container {
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    height: 560px;
+    margin: auto;
+    width: 340px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.hero-image {
+    border-radius: 10px 10px 0 0;
+    width: 340px;
+}
+
+.order-desc {
+    line-height: 1.5;
+    margin: auto;
+    width: 75%;
+}
+
+.annual-plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+.payment-button {
+    background-color:hsl(245, 75%, 52%);
+    border-color: hsl(225, 100%, 98%);
+    color: white;
+}
+
+.cancel-button {
+    background-color: white;
+    border-color: hsl(225, 100%, 98%);
+    color: hsl(224, 23%, 55%);
+}
+
